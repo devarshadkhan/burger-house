@@ -1,0 +1,481 @@
+*{ margin:0; box-sizing:border-box; }
+body{font-family: 'fira sans';}
+
+/* Css Has Been Started*/
+
+/* humburger*/
+/* menu btn styling */
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+/* .scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+} 
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+*/
+
+
+/*Header First */
+
+
+.Top-header{
+    background-image: url(../Image/bG-1.png);
+    padding: 10px 0  70px;
+    width: 100%;
+    /* position: sticky; */
+    left: 0;
+}
+.Top-header .navbar{
+    /* display: block; */
+    display: flex;
+    justify-content: right;
+}
+.Top-header .navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+}
+.Top-header .navbar ul li{
+    padding: 3px 25px;
+}
+.Top-header .navbar ul li a{
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+    
+}
+
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.top-text{
+    margin-top: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.slide-show{
+    margin-top: 140px;
+}
+.three-image{
+    position: absolute;
+}
+.burger-week h1{
+    font-size: 115px;
+    line-height: 95px;
+    margin-top: 60px;
+    color: #3d2514;
+}
+.burger-week span{
+    font-size: 65px;
+}
+
+.img-burger img{
+    margin: 150px 0 0 0;
+    position: static;
+}
+.drink-img {position: absolute;}
+.drink-img img{
+    position: absolute;
+    top: -474px;
+    left: 331px;
+    z-index: -12;
+}
+.french-fries {position: absolute;}
+.french-fries img{
+    position: relative;
+    top: 14px;
+    right: 132px;
+    z-index: -2;
+}
+.three-image{
+    padding: 0 0 0 71px;
+    position: absolute;
+}
+
+.price{
+    position: absolute;
+    top: 362px;
+    left: -7px;
+    background-color: #bf2222;
+    padding: 22px 34px 6px;
+    border: 1px solid #bf2222;
+    border-radius: 50%;
+    color: #fff;
+}
+.price p{
+    font-size: 20px;
+}
+.price p::before{
+    content: "$5";
+    font-size: 40px;
+}
+.price span{
+    font-size: 25px;
+    padding: 0 7px;
+}
+.wrap-2{
+    padding: 0 0 60px;
+}
+.burger-left-img {}
+.burger-left-img img{
+    /* margin-top: 50px; */
+    width: 100%;
+   
+}
+.burger-left-img p{
+    position: relative;
+    margin: 0;
+    top: 109px;
+    left: 21px;
+    font-size: 19px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.burger-left-img span{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.burger-left-img.second p{
+    position: relative;
+    margin: -23px 0;
+    top: 122px;
+    left: 21px;
+    font-size: 19px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.burger-left-img span{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.wrap-3{
+    padding: 40px 0;
+    width: 100%;
+    height: auto;
+}
+.wrap-3 .tasty-button{
+    text-align: center;
+}
+.wrap-3 .btn{
+    /* margin: 0 463px; */
+    background-color: #ffcd45;
+    text-transform: uppercase;
+    color: #3d2514;
+    border: none;
+    padding: 11px 12px;
+    cursor: pointer;
+}
+.wrap-3 .btn:hover{
+    background-color: #f1b81a;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+}
+.wrap-3 .btn-primary:focus{
+    box-shadow: 0 0 0 0.15rem #2c2103;
+    border-color: #2c2103;
+}
+.wrap-3 .sub-heading h2{
+    font-size: 50px;
+    color: #3d2514;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0;
+    font-weight: bold;
+}
+.wrap-3 .sub-heading p{
+    text-align: center;
+    font-size: 17px;
+    color: #3d2514;
+    margin-top: -10px;
+}
+.wrap-3 .burger-1{
+    text-align: center;
+}
+.wrap-3 .burger-1 img{
+    margin-top: 50px;
+}
+.wrap-3 .burger-1 p{
+    margin-bottom: 35px !important;
+}
+.wrap-3 .burger-1 h2{
+    text-transform: uppercase;
+}
+.wrap-3 .burger-1 a{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #bf2222;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.wrap-3 .burger-1 a:hover{
+    background-color: #f51313;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.wrap-4{
+    padding: 70px 0;
+    width: 100%;
+    height: auto;
+}
+.wrap-4 .upcoming-event{
+    margin: 15px 35px;
+    text-align: center;
+}
+.wrap-4 .upcoming-event span{
+    /* display: inline-flex; */
+}
+.wrap-4 .upcoming-event h2{
+    display: inline-flex;
+    font-size: 25px;
+}
+.wrap-4 .upcoming-event img{
+    display: inline-flex;
+    width: 50%;
+    height: 50%;
+
+}
+.wrap-4 .upcoming-event p{
+    text-align: center;
+    display: inline-flex;
+    font-size: 20px;
+}
+
+/* nMedia Query */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    
+       /* Humberger */
+       .menu-btn{display: block; position: relative; float: right; z-index: 20001;}
+       .menu-btn i.active:before{
+           content: "\f00d";
+       }
+       .navbar .menu{
+           position: fixed;
+           height: 100vh;
+           width: 100%;
+           left: -100%;
+           top: 0;
+           background: #111;
+           text-align: center;
+           padding-top: 80px;
+           transition: all 0.3s ease;
+       }
+       .navbar .menu.active{
+           left: 0;
+           display: inline-block;
+           padding: -11px;
+           padding: 46px 0 0 0;
+       }
+       .navbar .menu ul li{
+           display: block;
+       }
+       .navbar .menu ul li a{
+           display: inline-block;
+           margin: 20px 0;
+           font-size: 25px;
+           color: #fff;
+       }
+       .Top-header .navbar ul li a{
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           background-image: linear-gradient(to right,#ec2124,#ecb131);
+       }
+       .Top-header .navbar ul li{padding: 0;}
+   
+       /* .Top-header .navbar{display: none;} */
+       
+       .price{
+           position: absolute;
+           top: 216px;
+       }
+       .price span{
+           font-size: 15px;
+       }
+       .price p::before {
+           content: "$5";
+           font-size: 20px;
+       }
+       .top-text{
+           margin-top: 50px;
+           text-align: center;
+       }
+       /* .burger-week h1{
+           text-align: center;
+           font-style: 163px;
+       }
+       .burger-week span{
+           font-style: 80px;
+       } */
+   
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+       /* Humberger */
+       .menu-btn{display: block; position: relative; float: right; z-index: 20001;}
+       .menu-btn i.active:before{
+           content: "\f00d";
+       }
+       .navbar .menu{
+           position: fixed;
+           height: 100vh;
+           width: 100%;
+           left: -100%;
+           top: 0;
+           background: #111;
+           text-align: center;
+           padding-top: 80px;
+           transition: all 0.3s ease;
+       }
+       .navbar .menu.active{
+           left: 0;
+           display: inline-block;
+           padding: -11px;
+           padding: 46px 0 0 0;
+       }
+       .navbar .menu ul li{
+           display: block;
+       }
+       .navbar .menu ul li a{
+           display: inline-block;
+           margin: 20px 0;
+           font-size: 25px;
+           color: #fff;
+       }
+       .Top-header .navbar ul li a{
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           background-image: linear-gradient(to right,#ec2124,#ecb131);
+       }
+   
+       /* .Top-header .navbar{display: none;} */
+      
+       .price{
+           position: absolute;
+           top: 216px;
+       }
+       .price span{
+           font-size: 15px;
+       }
+       .price p::before {
+           content: "$5";
+           font-size: 20px;
+       }
+       .top-text{
+           margin-top: 50px;
+           text-align: center;
+       }
+       /* .burger-week h1{
+           text-align: center;
+           font-style: 163px;
+       }
+       .burger-week span{
+           font-style: 80px;
+       } */
+   }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    /* Humberger */
+    .menu-btn{
+        display: flex;
+        position: absolute;
+        /* float: right; */
+        z-index: 20001;
+        top: 12px;
+        /* left: 0; */
+        right: 13px;
+        font-size: 40px;}
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+        display: inline-block;
+        padding: -11px;
+        padding: 46px 0 0 0;
+    }
+    .navbar .menu ul li{
+        display: block;
+    }
+    .navbar .menu ul li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+        color: #fff;
+    }
+    .Top-header .navbar ul li a{
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right,#ec2124,#ecb131);
+    }
+
+    /* .Top-header .navbar{display: none;} */
+    .three-image{display: none;}
+    .price{
+        position: absolute;
+        top: 216px;
+    }
+    .price span{
+        font-size: 15px;
+    }
+    .price p::before {
+        content: "$5";
+        font-size: 20px;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { 
+    
+ }
+
+
